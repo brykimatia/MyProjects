@@ -1,4 +1,5 @@
 #To clean data, we install the required packages and load the respective libraries
+#Setting Up my environment
 install.packages("tidyverse")
 install.packages("skimr")
 install.packages("janitor")
@@ -6,6 +7,7 @@ install.packages("janitor")
 library(tidyverse)
 library(skimr)
 library(janitor)
+library(readxl)
 
 #We import data for this case in excel format
 hotel_bookings <- read_excel("D:/Portfolio/R PROGRAMMING/hotel_bookings.xls")
